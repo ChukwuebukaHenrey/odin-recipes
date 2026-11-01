@@ -1,6 +1,6 @@
-import "./CSS Files/index.css"; // base + home (also holds your navbar, footer, fonts, variables)
-import "./CSS Files/sharedStyles.css"; // used by the other five pages
-import "./CSS Files/jollof.css"; // jollof-only styles
+import "./CSS Files/index.css";
+import "./CSS Files/sharedStyles.css";
+import "./CSS Files/jollof.css";
 import { loadHome } from "./home.js";
 import { loadPotatoes } from "./potatoes.js";
 import { loadYam } from "./yamCassarole.js";

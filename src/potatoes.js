@@ -1,6 +1,5 @@
 import buildRecipePage from "./recipePage.js";
-import potatoImg from "./images/pot.webp"; // ./ because the images folder is inside src, next to this file
-
+import potatoImg from "./images/pot.webp";
 export function loadPotatoes() {
   buildRecipePage({
     category: "SIDE DISH", // from the eyebrow: "THE RECIPE COLLECTION / SIDE DISH"

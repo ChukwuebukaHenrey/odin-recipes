@@ -1,0 +1,30 @@
+.recipe-image {
+  margin-bottom: 1rem;
+  width: 500px;
+  height: auto;
+  outline: 2px solid red;
+}
+
+.recipe-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: clamp(1rem, 3vw, 3rem);
+}
+
+.next-recipe {
+  display: inline-block;
+  margin-top: 45px;
+  padding: 13px 20px;
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.next-recipe:hover {
+  background: var(--accent);
+  color: white;
+}
